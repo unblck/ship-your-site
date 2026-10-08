@@ -1,6 +1,9 @@
 <p align="center"><img src="assets/logo.png" alt="unblck.me" width="96"></p>
 
-<p align="center"><a href="https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site"><img src="https://img.shields.io/badge/VS_Code_Marketplace-install-007ACC?logo=visualstudiocode&amp;logoColor=white" alt="Install from the VS Code Marketplace"></a></p>
+<p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site"><img src="https://img.shields.io/badge/VS_Code_Marketplace-install-007ACC?logo=visualstudiocode&amp;logoColor=white" alt="Install from the VS Code Marketplace"></a>
+<a href="https://open-vsx.org/extension/unblck/ship-your-site"><img src="https://img.shields.io/badge/Open_VSX-install-C16082?logo=vscodium&amp;logoColor=white" alt="Install from Open VSX"></a>
+</p>
 
 # Ship your site
 
@@ -56,7 +59,7 @@ claude plugin install ship-your-site@unblck
 
 **VS Code:** install [Ship your site from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site), search for **Ship your site** by **unblck.me** in the Extensions view, or run `ext install unblck.ship-your-site` from Quick Open.
 
-**Cursor, Windsurf, VSCodium:** the Open VSX listing is coming soon. Until then, download `ship-your-site-1.0.0.vsix` from the [v1.0.0 release](https://github.com/unblck/ship-your-site/releases/tag/v1.0.0) and use **Extensions → ⋯ → Install from VSIX…**.
+**Cursor, Windsurf, VSCodium:** install [Ship your site from Open VSX](https://open-vsx.org/extension/unblck/ship-your-site), or search for **Ship your site** in the Extensions view. Fallback: download `ship-your-site-1.0.0.vsix` from the [v1.0.0 release](https://github.com/unblck/ship-your-site/releases/tag/v1.0.0) and use **Extensions → ⋯ → Install from VSIX…**.
 
 The extension adds a Getting Started walkthrough that mirrors the guide, and registers the skill for Copilot Chat.
 

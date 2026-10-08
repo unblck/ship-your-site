@@ -23,7 +23,7 @@ No commands, no telemetry, no code runs: the extension only contributes the walk
 
 ## Cursor, Windsurf, VSCodium
 
-An Open VSX listing is coming soon. Until then, download the `.vsix` from the [v1.0.0 release](https://github.com/unblck/ship-your-site/releases/tag/v1.0.0) and use **Extensions → ⋯ → Install from VSIX…**.
+Install [Ship your site from Open VSX](https://open-vsx.org/extension/unblck/ship-your-site), or search for **Ship your site** in the Extensions view. Fallback: download the `.vsix` from the [v1.0.0 release](https://github.com/unblck/ship-your-site/releases/tag/v1.0.0) and use **Extensions → ⋯ → Install from VSIX…**.
 
 ## Other agents
 
