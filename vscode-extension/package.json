@@ -1,0 +1,155 @@
+{
+  "name": "ship-your-site",
+  "displayName": "Ship your site: domain, Netlify, DNS, HTTPS",
+  "description": "Free step-by-step walkthrough and agent skill to take a local site live on your own domain with Netlify: deploy, make public, buy a domain, DNS, HTTPS, verify. By unblck.me.",
+  "version": "1.0.0",
+  "publisher": "unblck",
+  "author": {
+    "name": "Chakradar Raju"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0b0d10",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/unblck/ship-your-site#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unblck/ship-your-site.git",
+    "directory": "vscode-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/unblck/ship-your-site/issues"
+  },
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Education",
+    "Other"
+  ],
+  "keywords": [
+    "netlify",
+    "deploy",
+    "domain",
+    "dns",
+    "https",
+    "hosting",
+    "static site",
+    "custom domain",
+    "vibe coding",
+    "agent skill",
+    "copilot"
+  ],
+  "scripts": {
+    "vscode:prepublish": "node scripts/sync-skill.mjs",
+    "package": "npx @vscode/vsce package"
+  },
+  "contributes": {
+    "walkthroughs": [
+      {
+        "id": "shipYourSite",
+        "title": "Ship your site",
+        "description": "From localhost to a live, public site on your own domain: Netlify deploy, domain, DNS, HTTPS, verified. By unblck.me.",
+        "steps": [
+          {
+            "id": "agent",
+            "title": "Let your AI agent guide you",
+            "description": "Ask your agent to **ship this site** and it follows the guide one step at a time, asking before any purchase or account action.",
+            "media": {
+              "markdown": "media/agent.md"
+            }
+          },
+          {
+            "id": "step0",
+            "title": "Step 0: Make sure you have something deployable",
+            "description": "Find your build command and output folder (`dist`, `build`, `out`…), check that `index.html` is at its root, and keep secrets out of it.",
+            "media": {
+              "markdown": "media/step0.md"
+            }
+          },
+          {
+            "id": "step1",
+            "title": "Step 1: Create a Netlify account",
+            "description": "Sign up for the free plan and learn how credits work, so you never get charged or paused by surprise.\n[Open Netlify sign-up](https://app.netlify.com/signup)",
+            "media": {
+              "markdown": "media/step1.md"
+            }
+          },
+          {
+            "id": "step2",
+            "title": "Step 2: Deploy to a *.netlify.app URL",
+            "description": "Pick **drag and drop**, the **Netlify CLI**, or **Git**. Add a `_redirects` rewrite if your app uses client-side routing.",
+            "media": {
+              "markdown": "media/step2.md"
+            }
+          },
+          {
+            "id": "step3",
+            "title": "Step 3: Make the project public",
+            "description": "Teams created on or after July 28, 2026 make projects **private by default**. Click **Make public**, then test in an incognito window.",
+            "media": {
+              "markdown": "media/step3.md"
+            }
+          },
+          {
+            "id": "step4",
+            "title": "Step 4: Buy a domain",
+            "description": "Compare **renewal price**, WHOIS privacy and DNS control. Netlify, Cloudflare Registrar and retail registrars each have trade-offs.",
+            "media": {
+              "markdown": "media/step4.md"
+            }
+          },
+          {
+            "id": "step5",
+            "title": "Step 5: Add the domain to your Netlify project",
+            "description": "**Domain management → Add a domain you already own**. Choose apex or `www` as primary and open **Pending DNS verification**.",
+            "media": {
+              "markdown": "media/step5.md"
+            }
+          },
+          {
+            "id": "step6",
+            "title": "Step 6: Point DNS at Netlify",
+            "description": "**6A** switch nameservers to Netlify DNS, or **6B** add records at your current DNS host. Watch for MX records, DNSSEC and Cloudflare's proxy.",
+            "media": {
+              "markdown": "media/step6.md"
+            }
+          },
+          {
+            "id": "step7",
+            "title": "Step 7: HTTPS certificate",
+            "description": "Netlify issues a free Let's Encrypt certificate once DNS resolves. Here's how to check it and fix a stuck one.",
+            "media": {
+              "markdown": "media/step7.md"
+            }
+          },
+          {
+            "id": "step8",
+            "title": "Step 8: Verify from outside your own machine",
+            "description": "Run the `dig` and `curl` checks, then open the site in incognito and on your phone with Wi-Fi off. Padlock + real site = live.",
+            "media": {
+              "markdown": "media/step8.md"
+            }
+          },
+          {
+            "id": "troubleshooting",
+            "title": "Common failures and fixes",
+            "description": "Login wall, 404 on refresh, parking page, stuck DNS verification, certificate errors, lost email: symptoms, causes and fixes.\n[Read the full guide](https://github.com/unblck/ship-your-site/blob/main/skills/ship-your-site/references/GUIDE.md)",
+            "media": {
+              "markdown": "media/troubleshooting.md"
+            }
+          }
+        ]
+      }
+    ],
+    "chatSkills": [
+      {
+        "path": "./skills/ship-your-site/SKILL.md"
+      }
+    ]
+  }
+}

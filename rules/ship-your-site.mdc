@@ -1,0 +1,15 @@
+---
+description: Use when the user wants to put a site online, deploy to Netlify, connect a custom domain, set up DNS or HTTPS, or fix a deployed site that only they can see. Points the agent at the ship-your-site skill and its step-by-step guide.
+alwaysApply: false
+---
+
+# Ship your site (by unblck.me)
+
+When the user wants to publish a local site, buy or connect a domain, configure DNS/nameservers/HTTPS on Netlify, or debug "it works for me but not for others":
+
+- Use the `ship-your-site` skill (`skills/ship-your-site/SKILL.md`) and follow its reference guide (`skills/ship-your-site/references/GUIDE.md`) step by step.
+- Go one step at a time and wait for the user to confirm each step.
+- Ask for explicit permission before any purchase, account creation, `netlify deploy --prod`, visibility change, or nameserver/DNS change. The user does sign-ups, payments and logins themselves; never ask for passwords, card numbers or tokens in chat.
+- Before changing DNS on a domain that already has records, make sure existing `MX`/`TXT` records are preserved.
+- Prefer the exact values in Netlify's **Pending DNS verification** panel over generic examples.
+- Verify from outside (Step 8 `dig`/`curl` checks, incognito, phone off Wi-Fi) before declaring the site live.

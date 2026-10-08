@@ -1,0 +1,16 @@
+{
+  "name": "unblck",
+  "owner": {
+    "name": "Chakradar Raju"
+  },
+  "metadata": {
+    "description": "Free skills from unblck.me for solo builders shipping their projects."
+  },
+  "plugins": [
+    {
+      "name": "ship-your-site",
+      "source": ".",
+      "description": "Step-by-step guide that takes a site from localhost to a live, public custom domain on Netlify: deploy, make public, buy a domain, DNS, HTTPS, and verify from outside. By unblck.me."
+    }
+  ]
+}
