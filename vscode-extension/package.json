@@ -5,9 +5,11 @@
   "version": "1.0.0",
   "publisher": "unblck",
   "author": {
-    "name": "Chakradar Raju"
+    "name": "Chakradar Raju",
+    "url": "https://unblck.me"
   },
   "license": "MIT",
+  "pricing": "Free",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#0b0d10",
@@ -66,7 +68,7 @@
           {
             "id": "step0",
             "title": "Step 0: Make sure you have something deployable",
-            "description": "Find your build command and output folder (`dist`, `build`, `out`…), check that `index.html` is at its root, and keep secrets out of it.",
+            "description": "Find your build command and output folder (`dist`, `build`, `out`\u2026), check that `index.html` is at its root, and keep secrets out of it.",
             "media": {
               "markdown": "media/step0.md"
             }
@@ -106,7 +108,7 @@
           {
             "id": "step5",
             "title": "Step 5: Add the domain to your Netlify project",
-            "description": "**Domain management → Add a domain you already own**. Choose apex or `www` as primary and open **Pending DNS verification**.",
+            "description": "**Domain management \u2192 Add a domain you already own**. Choose apex or `www` as primary and open **Pending DNS verification**.",
             "media": {
               "markdown": "media/step5.md"
             }

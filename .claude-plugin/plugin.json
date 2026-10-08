@@ -5,7 +5,7 @@
   "description": "Step-by-step guide that takes a site from localhost to a live, public custom domain on Netlify: deploy, make public, buy a domain, DNS, HTTPS, and verify from outside. By unblck.me.",
   "author": {
     "name": "Chakradar Raju",
-    "url": "https://unstuc.me"
+    "url": "https://unblck.me"
   },
   "homepage": "https://github.com/unblck/ship-your-site",
   "repository": "https://github.com/unblck/ship-your-site",
@@ -13,5 +13,5 @@
   "keywords": ["netlify", "deploy", "domain", "dns", "https", "hosting", "vibe-coding", "unblck"],
   "icon": "./assets/logo.png",
   "documentationUrl": "https://github.com/unblck/ship-your-site#readme",
-  "supportUrl": "https://unstuc.me"
+  "supportUrl": "https://unblck.me"
 }

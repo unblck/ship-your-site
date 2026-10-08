@@ -52,7 +52,7 @@ claude plugin install ship-your-site@unblck
 
 ### VS Code / Cursor extension (walkthrough + Copilot skill)
 
-Search for **Ship your site** by **unblck** in the Extensions view (VS Code Marketplace or Open VSX). It adds a Getting Started walkthrough that mirrors the guide, and registers the skill for Copilot Chat.
+Search for **Ship your site** by **unblck** in the Extensions view (VS Code Marketplace or Open VSX; listings are on their way). Until it shows up there, download `ship-your-site-1.0.0.vsix` from the [latest release](https://github.com/unblck/ship-your-site/releases/latest) and use **Extensions → ⋯ → Install from VSIX…**. It adds a Getting Started walkthrough that mirrors the guide, and registers the skill for Copilot Chat.
 
 ## Use it
 
@@ -73,6 +73,7 @@ skills/ship-your-site/references/GUIDE.md  the full guide the skill follows
 .cursor-plugin/                            Cursor plugin + marketplace manifests
 rules/ship-your-site.mdc                   Cursor rule that points the agent at the skill
 vscode-extension/                          VS Code / Open VSX extension (walkthrough + chatSkills)
+.github/workflows/publish-extension.yml    publishes the extension with trusted publishing (no stored tokens)
 ```
 
 ## Contributing
