@@ -1,5 +1,7 @@
 <p align="center"><img src="assets/logo.png" alt="unblck.me" width="96"></p>
 
+<p align="center"><a href="https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site"><img src="https://img.shields.io/visual-studio-marketplace/v/unblck.ship-your-site" alt="VS Code Marketplace version"></a></p>
+
 # Ship your site
 
 **Take a site that works on `localhost` and make it live for everyone at `https://yourname.com`.** A free, step-by-step guide packaged as an agent skill, so your AI coding agent (Cursor, Claude Code, Codex, Copilot and others) can walk you through it. By unblck.me.
@@ -52,7 +54,11 @@ claude plugin install ship-your-site@unblck
 
 ### VS Code / Cursor extension (walkthrough + Copilot skill)
 
-Search for **Ship your site** by **unblck** in the Extensions view (VS Code Marketplace or Open VSX; listings are on their way). Until it shows up there, download `ship-your-site-1.0.0.vsix` from the [latest release](https://github.com/unblck/ship-your-site/releases/latest) and use **Extensions → ⋯ → Install from VSIX…**. It adds a Getting Started walkthrough that mirrors the guide, and registers the skill for Copilot Chat.
+**VS Code:** install [Ship your site from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site), search for **Ship your site** by **unblck.me** in the Extensions view, or run `ext install unblck.ship-your-site` from Quick Open.
+
+**Cursor, Windsurf, VSCodium:** the Open VSX listing is coming soon. Until then, download `ship-your-site-1.0.0.vsix` from the [v1.0.0 release](https://github.com/unblck/ship-your-site/releases/tag/v1.0.0) and use **Extensions → ⋯ → Install from VSIX…**.
+
+The extension adds a Getting Started walkthrough that mirrors the guide, and registers the skill for Copilot Chat.
 
 ## Use it
 

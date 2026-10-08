@@ -21,6 +21,10 @@ Take a site that works on `localhost` and make it reachable by anyone at `https:
 
 No commands, no telemetry, no code runs: the extension only contributes the walkthrough and the skill.
 
+## Cursor, Windsurf, VSCodium
+
+An Open VSX listing is coming soon. Until then, download the `.vsix` from the [v1.0.0 release](https://github.com/unblck/ship-your-site/releases/tag/v1.0.0) and use **Extensions → ⋯ → Install from VSIX…**.
+
 ## Other agents
 
 Using Cursor's agent, Claude Code, Codex, Gemini CLI or Windsurf? Install the same skill with:
