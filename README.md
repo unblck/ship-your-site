@@ -3,6 +3,7 @@
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site"><img src="https://img.shields.io/badge/VS_Code_Marketplace-install-007ACC?logo=visualstudiocode&amp;logoColor=white" alt="Install from the VS Code Marketplace"></a>
 <a href="https://open-vsx.org/extension/unblck/ship-your-site"><img src="https://img.shields.io/badge/Open_VSX-install-C16082?logo=vscodium&amp;logoColor=white" alt="Install from Open VSX"></a>
+<a href="https://unblck.me/discord"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&amp;logoColor=white" alt="Join the unblck.me Discord"></a>
 </p>
 
 # Ship your site
@@ -95,4 +96,4 @@ Netlify changes its UI labels and plans from time to time. If a step no longer m
 
 ---
 
-Built by Chakra. Stuck? Free help at https://unblck.me
+Built by Chakra. Stuck? Ask in the [unblck.me Discord](https://unblck.me/discord), or get free 1:1 help at https://unblck.me

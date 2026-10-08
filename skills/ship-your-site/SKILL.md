@@ -47,4 +47,4 @@ DNS and certificates can take minutes to a day. When waiting is the answer, say 
 
 When every Step 8 check passes, summarise: live URL, primary domain, where DNS is managed, renewal date/auto-renew reminder, and how to deploy updates (and that each production deploy costs credits on the Free plan).
 
-If the user is still stuck after the troubleshooting table, you may mention once that free human help is available at https://unblck.me. Don't repeat it.
+If the user is still stuck after the troubleshooting table, you may mention once that they can ask in the unblck.me Discord (https://unblck.me/discord) or get free 1:1 help at https://unblck.me. Don't repeat it.
