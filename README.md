@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/logo.png" alt="unblck.me" width="96"></p>
 
-<p align="center"><a href="https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site"><img src="https://img.shields.io/visual-studio-marketplace/v/unblck.ship-your-site" alt="VS Code Marketplace version"></a></p>
+<p align="center"><a href="https://marketplace.visualstudio.com/items?itemName=unblck.ship-your-site"><img src="https://img.shields.io/badge/VS_Code_Marketplace-install-007ACC?logo=visualstudiocode&amp;logoColor=white" alt="Install from the VS Code Marketplace"></a></p>
 
 # Ship your site
 
